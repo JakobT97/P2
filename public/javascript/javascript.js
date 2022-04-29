@@ -2,14 +2,14 @@
 
 
 document.onclick = hideMenu;
-document.oncontextmenu = rightCick;
+document.oncontextmenu = rightClick;
 
 function hideMenu() {
     document.getElementById("floormenu") 
             .style.display = "none"
 }
 
-function rightCick(e) {
+function rightClick(e) {
     e.preventDefault(); 
 
     if (document.getElementById("floormenu") .style.display == "block"){ 
